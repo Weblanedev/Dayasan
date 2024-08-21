@@ -14,21 +14,22 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <Head>
         <title>{EnvVars.SITE_NAME}</title>
         <meta
-          name="Haempstad Solutions Ltd"
-          content="At Haempstad Solutions Ltd, our mission is to empower our customers with the tools, materials, and expertise they need to turn their dreams into reality. We are committed to providing top-quality products."
+          name="Daysan"
+          content="At Daysan, we are dedicated to providing high-quality paper products tailored for the bookbinding industry."
         />
+            <link rel="icon" type="image/svg+xml" href="https://th.bing.com/th/id/R.4789c26e848fb37faa2ad05e8f4ecc31?rik=cu82XOb7OCgl6w&pid=ImgRaw&r=0" />
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <BasicSection imageUrl="https://images.pexels.com/photos/9389356/pexels-photo-9389356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Mission" overTitle="">
+          <BasicSection imageUrl="https://images.pexels.com/photos/14805033/pexels-photo-14805033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Mission" overTitle="">
             <p>
-            At Haempstad Solutions Ltd, our mission is to empower our customers with the tools, materials, and expertise they need to turn their dreams into reality. We are committed to providing top-quality products, exceptional service, and expert guidance to help homeowners and contractors alike achieve their home improvement goals with confidence and ease.
+            Our mission is to support the bookbinding community by providing reliable, high-quality materials that enhance the craftsmanship and durability of bound works. We are committed to innovation, sustainability, and excellence in every product we offer.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="https://images.pexels.com/photos/8113779/pexels-photo-8113779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Vision" overTitle="" reversed>
+          <BasicSection imageUrl="https://images.pexels.com/photos/5673488/pexels-photo-5673488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" title="Our Vision" overTitle="" reversed>
             <p>
-            Our vision at Haempstad Solutions Ltd is to be the premier destination for hardware and contracting services, known for our unwavering commitment to quality, innovation, and customer satisfaction. We strive to be a trusted partner in every step of our customers home improvement journey, inspiring creativity, fostering collaboration, and building lasting relationships within our community.
+            At Daysan, our vision is to be the leading provider of premium paper products, driving innovation and sustainability in the bookbinding industry. We aspire to empower bookbinders and related professionals by offering materials that not only enhance the quality and durability of their work but also contribute to a more sustainable and environmentally responsible future. 
             </p>
            
           </BasicSection>

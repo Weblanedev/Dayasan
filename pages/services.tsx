@@ -8,53 +8,54 @@ import { media } from 'utils/media';
 const FEATURES = [
   {
     // imageUrl: '/grid-icons/asset-1.svg',
-    title: 'Plumbing and Electrical Installations.',
+    title: 'Custom Manufacturing.',
     description:
-      'Professional installation services for plumbing fixtures, water heaters, water filtration systems, electrical wiring, lighting fixtures, outlets, switches, and more.',
-      price: '130'
+      'Work with us to create bespoke paper products tailored to your specific needs.',
+      price: '200'
   },
   {
     // imageUrl: '/grid-icons/asset-2.svg',
-    title: 'Fixture Installation and Replacement.',
+    title: 'Consultation',
     description:
-      'Replacement of old or outdated fixtures with new, efficient models to enhance functionality and aesthetics while improving water conservation.',
-      price: '300'
-  },
-  {
-    // imageUrl: '/grid-icons/asset-3.svg',
-    title: 'Water Heater Installation and Repair',
-    description:
-      'Installation of traditional tank-style water heaters, tankless water heaters, and heat pump water heaters to provide reliable hot water supply for your home or business.',
-      price: '215'
-  },
-  {
-    // imageUrl: '/grid-icons/asset-4.svg',
-    title: 'Pipe Leak Detection and Repairs',
-    description:
-      'Detection and repair of hidden leaks in plumbing pipes using advanced leak detection technology and non-invasive methods to minimize disruption to your property.',
+      'Our experts are available to provide guidance and advice on the best materials and solutions for your projects.',
       price: '115'
   },
   {
-    // imageUrl: '/grid-icons/asset-5.svg',
-    title: 'Drain Cleaning and Unclogging',
+    // imageUrl: '/grid-icons/asset-3.svg',
+    title: 'Delivery and Logistics',
     description:
-      'Professional drain cleaning services to remove clogs, blockages, and buildup from drains, sewer lines, and drainpipes using hydro-jetting, snaking, and other specialized equipment.',
-      price: '342'
+      'Reliable and timely delivery services to ensure your products arrive when you need them.',
+      price: '280'
   },
   {
-    // imageUrl: '/grid-icons/asset-6.svg',
-    title: 'Sump Pump Installation and Maintenance',
+    // imageUrl: '/grid-icons/asset-4.svg',
+    title: 'Bookbinding Workshops:',
     description:
-      'Installation of sump pumps and backup sump pumps to prevent basement flooding and protect your property from water damage during heavy rainfall or groundwater infiltration.',
+      'We offer training sessions and workshops to help bookbinders and related professionals stay updated on the latest techniques, materials, and industry trends.',
+      price: '165'
+  },
+  // {
+  //   // imageUrl: '/grid-icons/asset-5.svg',
+  //   title: 'Drain Cleaning and Unclogging',
+  //   description:
+  //     'Professional drain cleaning services to remove clogs, blockages, and buildup from drains, sewer lines, and drainpipes using hydro-jetting, snaking, and other specialized equipment.',
+  //     price: '342'
+  // },
+  {
+    // imageUrl: '/grid-icons/asset-6.svg',
+    title: 'Private Labeling',
+    description:
+      'For clients looking to establish their own brand, we provide private labeling services, allowing you to offer our high-quality products under your own brand name.',
+      price: '470'
   },
 ];
 
 export default function FeaturesPage() {
   return (
-    <Page title="Services" description="In addition to our wide selection of hardware products, we offer professional contracting services to help you bring your vision to life. Our experienced team of contractors specializes in a variety of services.">
+    <Page title="Services" description="At Daysan, we offer more than just products. We provide a range of services designed to support and enhance your bookbinding projects.">
       <Wrapper>
       <ImageContainer>
-        <NextImage src={"https://images.pexels.com/photos/7616004/pexels-photo-7616004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} alt={"IMage"} layout="fill" objectFit="cover" />
+        <NextImage src={"https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} alt={"IMage"} layout="fill" objectFit="cover" />
       </ImageContainer>
         <CustomAutofitGrid>
           {FEATURES.map((singleFeature, idx) => (

@@ -69,7 +69,7 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            <h1 className='text-3xl font-[600]'>HAEMPSTAD SOLUTIONS LTD</h1>
+            <h1 className='text-3xl font-[600]'>Daysan Prints.</h1>
           </LogoWrapper>
         </NextLink>
         <NavItemList>

@@ -12,26 +12,26 @@ const TABS = [
   {
     title: 'Quality Products:',
     description:
-      '<p>We source our hardware products from trusted manufacturers to ensure durability, performance, and reliability.</p>',
-    imageUrl: 'https://images.pexels.com/photos/5718906/pexels-photo-5718906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    baseColor: '249,82,120',
-    secondColor: '221,9,57',
+      '<p>We are committed to delivering the highest quality paper products that meet the exacting standards of the bookbinding industry.</p>',
+    imageUrl: 'https://th.bing.com/th/id/R.c082a4b0dd765bfa651f3c0ce43af83e?rik=S60nT56MVQcmUA&pid=ImgRaw&r=0',
+    baseColor: '57,148,224',
+    secondColor: '99,172,232',
   },
   {
     title: 'Expertise',
     description:
-      '<p>Our team of professionals possesses the knowledge and skills to handle a wide range of hardware and contracting projects, delivering exceptional results that exceed expectations.</p>',
-    imageUrl: 'https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      '<p>With years of experience in the paper manufacturing sector, our team possesses deep industry knowledge and technical expertise.</p>',
+    imageUrl: 'https://th.bing.com/th/id/R.f977961fef50588d108a30ed4f18a8a2?rik=Xq%2bwUp%2frMZ%2feeQ&pid=ImgRaw&r=0',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
     title: 'Customer Service',
     description:
-      '<p>At Haempstad Solutions Ltd, we prioritize customer satisfaction above all else. We are committed to providing personalized service, timely assistance, and reliable support to our valued customers.</p>',
-    imageUrl: 'https://images.pexels.com/photos/14953886/pexels-photo-14953886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    baseColor: '88,193,132',
-    secondColor: '124,207,158',
+      '<p>We prioritize customer satisfaction above all else. We are committed to providing personalized service, timely assistance, and reliable support to our valued customers.</p>',
+    imageUrl: 'https://images.pexels.com/photos/4466116/pexels-photo-4466116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    baseColor: '57,148,224',
+    secondColor: '99,172,232',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <SectionTitle>Why Choose Haempstad Solutions Ltd?</SectionTitle>
+        <SectionTitle>Why Choose Daysan Prints?</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>

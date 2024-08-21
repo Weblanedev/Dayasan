@@ -16,7 +16,7 @@ export default function Cta() {
           {/* <OverTitle>Lorem ipsum dolor sit amet</OverTitle> */}
           <SectionTitle>Ready to Get Started?</SectionTitle>
           <Description>
-          Transform your home with Haempstad Solutions Ltd today! Whether you're embarking on a DIY project or in need of professional contracting services, we're here to help. Explore our wide range of top-quality products, consult with our experienced team, and take the first step towards achieving your home improvement goals.
+          We are here to assist you with any questions or inquiries you may have. Explore our wide range of top-quality services, consult with our experienced team, and take the first step towards achieving your home improvement goals.
           </Description>
           <ButtonGroup>
             <NextLink href="/contact" passHref>

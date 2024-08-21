@@ -43,7 +43,7 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
 
-          <Copyright>&copy; Copyright 2021 Haempstad Solutions Ltd</Copyright>
+          <Copyright>&copy; Copyright 2021 Daysan Prints</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

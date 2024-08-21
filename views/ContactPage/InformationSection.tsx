@@ -5,14 +5,14 @@ export default function InformationSection() {
     <Wrapper>
       <h3>Contact Info</h3>
       <p>
-        <span>Email:</span> support@haempstad.com
+        <span>Email:</span> support@daysanprints.com
       </p>
-      <p>
+      {/* <p>
         <span>Phone:</span> +234-908-560-3575
-      </p>
-      <p>
+      </p> */}
+      {/* <p>
         <span>Location:</span> House 11, Greenpark Estate, Alexander, Abule Egba, Lagos
-      </p>
+      </p> */}
     </Wrapper>
   );
 }
